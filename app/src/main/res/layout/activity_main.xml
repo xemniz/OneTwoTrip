@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.ott.onetwotrip.MainActivity">
+
+        <EditText
+            android:id="@+id/textToFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleTextToFind" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleText" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/calculate"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calculate" />
+
+        <EditText
+            android:id="@+id/inputMatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleTextMatrix" />
+
+        <TextView
+            android:id="@+id/resultMatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/calculateMatrix"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calculate" />
+
+
+    </LinearLayout>
+</ScrollView>
+

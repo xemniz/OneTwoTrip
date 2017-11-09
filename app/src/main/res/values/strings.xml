@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OneTwoTrip</string>
+    <string name="sampleText">3 4\nnOe1\nTwo2\nTrip</string>
+    <string name="sampleTextToFind">OneTwoTrip</string>
+    <string name="sampleTextMatrix">45678\n33459\n22161\n19872\n76543</string>
+</resources>
